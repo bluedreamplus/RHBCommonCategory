@@ -4,9 +4,10 @@ Pod::Spec.new do |spec|
  
   spec.name         = "RHBCommonCategory"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of RHBCommonCategory."
- 
-  spec.description  =  " RHBCommonCategory"
+  
+  spec.description  =  " RHBCommonCategory RHBCommonCategory RHBCommonCategory"
+  spec.summary      = "公共常用Category"
+
 
   spec.homepage     = "https://github.com/enigma9527/RHBCommonCategory"
  
@@ -23,9 +24,8 @@ Pod::Spec.new do |spec|
    
   spec.source       = { :git => "https://github.com/enigma9527/RHBCommonCategory.git", :tag => "0.0.1" }
  
-  spec.source_files  = "RHBCommonCategory", "RHBCommonCategory/**/*.{h,m}"
+  spec.source_files  = "RHBCommonCategory/**/*.{h,m}"
  
-  spec.frameworks = "UIKit"
 
 
  
